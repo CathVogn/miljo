@@ -118,9 +118,9 @@ nav ul li a:hover {
 }
 
 .faq {
-  width: 1000px;
+  width: 80%;
   margin-top: 20%;
-  margin-left: 15%;
+  margin-left: 10%;
 }
 
 .faq-sektioner {
@@ -245,7 +245,7 @@ nav ul li a:hover {
 }
 
 .enkeltpakke {
-  max-width: 200px;
+  max-width: 250px;
   margin-left: 12%;
   background-color: #FFE0EF;
   padding-bottom: 100px;
@@ -304,6 +304,7 @@ nav ul li a:hover {
   margin-right: 20px;
   margin-bottom: 10%;
   position: relative; 
+  display: flex;
 }
 
 .baredygtig-webiste h1{
@@ -485,4 +486,89 @@ footer {
 .left p, .right p {
   font-size: 20px;
   margin: 20px 0;
+}
+
+
+@media (max-width: 700px){
+
+  .delfremtiden p{
+    font-size: 15px;
+  }
+
+  .delfremtiden h1{
+    font-size: 30px;
+  }
+
+  .baredygtig-webiste h1{
+   margin-top: 200px;
+     font-size: 30px;
+   }
+
+  .baredygtig-kol {
+    width: 80%;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .headerhojre{
+    display: none;
+  }
+
+  .billede-modteamet{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+  }
+
+  .modteamet{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .billede-modteamet img {
+    margin-top: 5%;
+    margin: 5%;
+  }
+
+  .pakker{
+    margin-top: 200px;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .enkeltpakke{
+    margin-top: 10%;
+  }
+
+  #linje5{
+    width: 32%;
+    height: 30%;
+  }
+
+  #linje6{
+    padding-top: 130px;
+    width: 37%;
+    height: 23%;
+  }
+
+  #bookknap{
+    margin-left: 10%;
+  padding: 12px 17px;
+  font-size: 17px;
+  margin-top: 6%; 
+  }
+
+  .contentbook h1{
+    left:0;
+    font-size: 20px;
+  }
+
+  .thatsimple h3 {
+    font-size: 15px; /* Angiv ønsket skriftstørrelse */
+  }
+
 }
