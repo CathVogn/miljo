@@ -7,6 +7,7 @@ import Pakker from './components/Pakker'
 import Teamet from './components/Teamet'
 import Thatsimple from './components/Thatsimple'
 import Footer from './components/Footer'
+
 function App() {
 
   return (

@@ -14,14 +14,14 @@ export default function Thatsimple(){
                 <h1>Skal vi tage en snak?</h1>
                 <button id="bookknap">Book møde</button>
             </div>
-            <img src={linje5} id="linje5" alt="linje" />
-            <img src={linje6} id="linje6" alt="linje" />
+            <img src={linje5} id="linje5" alt="linje" loading="lazy"/>
+            <img src={linje6} id="linje6" alt="linje" loading="lazy"/>
         </div>
 
     </div>
     
     <div className="thatsimple">
-    <img src={linje7} id="linje7" alt="linje" />
+    <img src={linje7} id="linje7" alt="linje" loading="lazy" />
    <h3>Det er simplethen “That Simple”</h3>
 </div>
 </section>

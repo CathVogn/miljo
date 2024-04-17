@@ -17,7 +17,7 @@ export default function Faq() {
 
     return (
         <section className="faq">
-        <img src={linje4} id="linje4" alt="linje" />
+        <img src={linje4} id="linje4" alt="linje" loading="lazy"/>
             <h1>That Simple.</h1>
             <h2>Tilbyder</h2>
             <div className="faq-sektioner" onClick={() => handleAccordionClick("0")}>

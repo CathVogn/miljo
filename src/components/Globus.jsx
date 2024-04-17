@@ -8,8 +8,8 @@ export default function Globus(){
     return (
     <section className="forsideglobus">
     <div className="globus-sektion">
-        <img src={globus} alt="globus" />
-        <img src={klat} alt="lyserød klat" />
+        <img src={globus} alt="globus" loading="lazy"/>
+        <img src={klat} alt="lyserød klat" loading="lazy"/>
        </div>
        <div className="delfremtiden">
 <h1>Vær en del af fremtiden</h1>
