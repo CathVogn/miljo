@@ -1,17 +1,24 @@
 import './App.css'
 import Header from './components/Header'
 import Globus from './components/Globus'
-import Delfremtiden from './components/Delfremtiden'
+import Baredygtig from './components/Baredygtig'
 import Faq from './components/Faq'
-
+import Pakker from './components/Pakker'
+import Teamet from './components/Teamet'
+import Thatsimple from './components/Thatsimple'
+import Footer from './components/Footer'
 function App() {
 
   return (
     <>
       <Header/>
       <Globus/>
-      <Delfremtiden/>
+      <Baredygtig/>
+      <Teamet/>
       <Faq/>
+      <Pakker/>
+      <Thatsimple/>
+      <Footer/>
     </>
   )
 }

@@ -10,10 +10,10 @@ export default function Header(){
             <header>
                 <nav>
                     <ul>
-                        <li><a href="#">Bæredygtigt webdesign</a></li>
-                        <li><a href="#">Teamet</a></li>
-                        <li><a href="#">Hvad kan vi gøre for dig?</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#linje1">Bæredygtigt webdesign</a></li>
+                        <li><a href="#linje3">Teamet</a></li>
+                        <li><a href="#linje4">Hvad kan vi gøre for dig?</a></li>
+                        <li><a href="#">Book møde</a></li>
                     </ul>
                 </nav>
             </header>

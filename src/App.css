@@ -6,7 +6,7 @@ h1, h2, h3, p {
 }
 
 body{
-  background-color: antiquewhite;
+  background-color: #FEF9E9;
 }
 
 /* Forside */
@@ -94,6 +94,7 @@ nav ul li a:hover {
 
 /* vær en del af fremtiden */
 .delfremtiden{
+  position: relative;
   text-align: center;
 }
 
@@ -116,10 +117,10 @@ nav ul li a:hover {
    margin-bottom: 15%;
 }
 
-/* faq */
 .faq {
   width: 1000px;
-  margin: auto;
+  margin-top: 20%;
+  margin-left: 15%;
 }
 
 .faq-sektioner {
@@ -128,6 +129,7 @@ nav ul li a:hover {
   margin-bottom: 30px;
   border: 2px solid #F5664C;
   border-radius: 10px;
+  background-color: #FEF9E9;
 }
 
 .faq-sporgsmal p {
@@ -173,6 +175,45 @@ nav ul li a:hover {
 }
 
 
+.modteamet {
+  padding-top: 15%;
+  margin-bottom: 10%;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin-left: 10%;
+  width: 80%; 
+}
+
+.modteamet-tekst {
+  color: #F5664C;
+  font-size: 30px;
+  padding-right: 15%;
+}
+
+.billede-modteamet {
+  display: flex;
+}
+
+.billede-modteamet img {
+  border-radius: 10px;
+  max-width: 400px; 
+  max-height: 400px; 
+  width: auto;
+  height: auto;  
+  margin-right: 15px;
+}
+
+#linje3{
+  position: absolute;
+  left: 0;
+  z-index: -1; 
+  width: 100%; 
+  height: auto; 
+}
+
+
+
 
 .faq-kryds {
   float: right; 
@@ -186,4 +227,262 @@ nav ul li a:hover {
 
 .faq-kryds.rotate {
   transform: rotate(45deg); 
+}
+
+#linje4{
+  position: absolute;
+  margin-top: 20%;
+  left: 0;
+  z-index: -1; 
+  width: 100%; 
+  height: auto; 
+}
+
+.pakker {
+  margin-left: 10%;
+  margin-top: 13%;
+  display: flex; 
+}
+
+.enkeltpakke {
+  max-width: 200px;
+  margin-left: 12%;
+  background-color: #FFE0EF;
+  padding-bottom: 100px;
+  padding-right: 7%;
+  padding-left: 3%;
+  padding-top: 5%;
+  border-radius: 10px;
+  color: #F5664C;
+}
+
+
+
+
+.enkeltpakke h2{
+  margin-top: 5%;
+  padding-bottom: 20%;
+  font-size: 40px;
+}
+
+.enkeltpakke p{
+  margin-top: 5%;
+  padding-bottom: 20%;
+  font-size: large;
+}
+
+
+/* bæredygtig website tilbyder */
+.baredygtig-webiste {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+#linje1{ 
+  position: absolute;
+  left: 0;
+  z-index: -1; 
+  width: 100%; 
+  height: auto; 
+
+}
+  
+
+#linje2{ 
+      position: absolute;
+      margin-top: 40%;
+      left: 0;
+      z-index: -1; 
+      width: 100%;
+      height: auto; 
+  }
+
+.baredygtig-kol {
+  width: 30%; 
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10%;
+  position: relative; 
+}
+
+.baredygtig-webiste h1{
+ margin-bottom: 8%;
+  color: #F997C1;
+  text-align: center;
+  font-size: 40px;
+}
+
+#strom{
+  bottom: 11%;
+  margin-left: 5%;
+  width: 25%;
+  height: 35%;
+}
+
+.baredygtig-webiste h3 {
+  color: #FEF9E9;
+  position: absolute;
+  bottom: 40px; 
+  left: 10%;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.baredygtig-webiste h3:hover{
+  opacity: 0;
+}
+
+
+.hver-enkeltkort {
+  background-color: #F5664C;
+  border-radius: 10px;
+  position: relative;
+  padding: 20px;
+  height: 400px; 
+  text-align: center;
+  box-sizing: border-box; 
+}
+
+
+.hver-enkeltkort img {
+  position: absolute;
+  bottom: 60px;
+  width: 40%;
+  height: auto;
+  margin-right: 20px;
+  transition: opacity 0.1s ease; 
+}
+
+.hver-enkeltkort:hover img {
+  opacity: 0;
+}
+
+.hver-enkeltkort p {
+  text-align: left; 
+  
+  font-size: 12.5px;
+  line-height: 1.5;
+  margin: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+
+.hver-enkeltkort:hover {
+  background-color: #FEF9E9;
+  border-radius: 10px;
+  border: 2px solid #F5664C;
+}
+
+.hver-enkeltkort:hover p {
+  opacity: 1;
+}
+
+
+.book {
+  margin-top: 8%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.bookmode {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+#bookknap{
+  margin-left: 13%;
+  padding: 18px 22px;
+  font-size: 23px;
+  background-color: #F5664C;
+  color: #fff;
+  border-radius: 10px;
+  display: block; 
+  margin-top: 6%; 
+  border: none;
+}
+
+#bookknap:hover {
+  border: 2px solid #F5664C;
+  background-color: #FEF9E9;
+  color: #5C5C5F;
+}
+
+#linje5 {
+  position: absolute;
+  width: 42%; 
+  height: 50%;
+  z-index: -1;
+  right: 0;
+}
+
+.contentbook{
+  width: 100%;
+  margin-top: 14%;
+  padding-left: 34%;
+}
+
+.contentbook h1{
+  margin-left: 1%;
+  font-size: 40px;
+  color: #F997C1;
+}
+
+#linje6{
+  margin-top: 35%;
+  position: absolute;
+  width: 39%; 
+  height: 40%; 
+  z-index: -1;
+  left: 0; 
+}
+
+
+/* Layout container for tekst og billede */
+.thatsimple {
+  margin-top: 20%;
+  display: flex; /* Brug flexbox-layout */
+  align-items: center; /* Centrer indholdet vertikalt */
+}
+
+/* Styling for billedet */
+#linje7 {
+  width: 60%;
+  height: auto; /* Automatisk højdejustering for at bevare proportioner */
+  margin-right: 20px; /* Tilføj lidt afstand til højre for teksten */
+}
+
+
+.thatsimple h3 {
+  color: #F5664C;
+  margin-top: 22%;
+  font-size: 33px; /* Angiv ønsket skriftstørrelse */
+}
+
+footer {
+  margin: 5%;
+  margin-top: 5%;
+  color: #5C5C5F;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.left p, .right p {
+  font-size: 20px;
+  margin: 20px 0;
 }

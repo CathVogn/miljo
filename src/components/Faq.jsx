@@ -1,3 +1,6 @@
+import linje4 from "../assets/linje4.png";
+
+
 export default function Faq() {
 
     const handleAccordionClick = (index) => {
@@ -14,6 +17,7 @@ export default function Faq() {
 
     return (
         <section className="faq">
+        <img src={linje4} id="linje4" alt="linje" />
             <h1>That Simple.</h1>
             <h2>Tilbyder</h2>
             <div className="faq-sektioner" onClick={() => handleAccordionClick("0")}>
@@ -29,14 +33,13 @@ export default function Faq() {
             <div className="faq-sektioner" onClick={() => handleAccordionClick("1")}>
                 <div className="faq-sporgsmal">
                     <span className="faq-kryds" id="k1">+</span>
-                    <p>Hosting</p>
+                    <p>Design</p>
                 </div>
 
                 <div className="faq-svar" id="1">
                     <p>
-                        There are eight planets in solar system.
-                        Mercury, Venus, Earth, Mars, Jupiter, Saturn,
-                        Uranus, and Neptune.
+                    Hos That Simple behøver du ikke at gå på kompromis med dit design og visuelle identitet. 
+                    Her er der både plads til at bæredygtighed og design kan forenes.
                     </p>
                 </div>
             </div>
@@ -44,7 +47,7 @@ export default function Faq() {
             <div className="faq-sektioner" onClick={() => handleAccordionClick("2")}>
                 <div className="faq-sporgsmal">
                     <span className="faq-kryds" id="k2">+</span>
-                    <p>Hosting</p>
+                    <p>Webudvikling</p>
 
                 </div>
                 <div className="faq-svar" id="2">
@@ -54,11 +57,12 @@ export default function Faq() {
             <div className="faq-sektioner" onClick={() => handleAccordionClick("3")}>
                 <div className="faq-sporgsmal">
                     <span className="faq-kryds" id="k3">+</span>
-                    <p>Hosting</p>
+                    <p>Test</p>
 
                 </div>
                 <div className="faq-svar" id="3">
-                    <p>Taj Mahal is located in Agra, Uttar Pradesh.</p>
+                    <p>Efter endt samarbejde tilsender vi desuden testresultater, fra blandt andet ecograder - 
+                    så DU kan sikre dig, at vi har holdt hvad vi lover. </p>
                 </div>
             </div>
         </section>
