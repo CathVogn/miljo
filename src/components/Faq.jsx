@@ -26,7 +26,10 @@ export default function Faq() {
                     <p>Hosting</p>
                 </div>
                 <div className="faq-svar" id="0">
-                    <p>Taj Mahal is located in Agra, Uttar Pradesh.</p>
+                    <p>Hos That Simple sørger vi for, at du får en webhost der kører på grøn energi.
+                     Dette kan blandt andet være vindenergi eller solenergi. <br />
+                     Vi tilbyder desuden også, at at analysere, hvor hovedparten af din målgruppe er lokaliseret.
+                     På denne måde kan vi finde en webhost der geografisk er tæt placeret. Dermed kan du sparer en masse energi. </p>
                 </div>
             </div>
 
@@ -38,8 +41,11 @@ export default function Faq() {
 
                 <div className="faq-svar" id="1">
                     <p>
-                    Hos That Simple behøver du ikke at gå på kompromis med dit design og visuelle identitet. 
-                    Her er der både plads til at bæredygtighed og design kan forenes.
+                    Hos That Simple behøver du ikke at gå på kompromis med dit design og visuelle identitet. Her er der både plads til at bæredygtighed og design kan forenes. <br />
+                    Vi ønsker at bryde med stereotypen om at bæredygtighed er lig grøn, brun og klichefyldte illustrationer og billeder med træer, blomster og vindmøller. <br />
+                    Vi mener, at alt handler om balance. Tilvalg og fravalg. <br />
+                    Hos That Simple kan vi både hjælpe dig med at opbygge en visuel identitet, eller tilpasse din nuværende identitet således,
+                    <br /> at den stemmer mere overens med de bæredygtige designprincipper. 
                     </p>
                 </div>
             </div>
@@ -51,7 +57,7 @@ export default function Faq() {
 
                 </div>
                 <div className="faq-svar" id="2">
-                    <p>Taj Mahal is located in Agra, Uttar Pradesh.</p>
+                    <p>Er du nyopstartet? Eller trænger du til justeringer? Så tilbyder That Simple også at udvikle dit website - både fra bunden eller blot optimering/vedligeholdelse. Med løbende samtaler sørger vi for, at du får det præcis som du ønsker med vores ekspertise i bæredygtige principper. </p>
                 </div>
             </div>
             <div className="faq-sektioner" onClick={() => handleAccordionClick("3")}>
@@ -61,8 +67,7 @@ export default function Faq() {
 
                 </div>
                 <div className="faq-svar" id="3">
-                    <p>Efter endt samarbejde tilsender vi desuden testresultater, fra blandt andet ecograder - 
-                    så DU kan sikre dig, at vi har holdt hvad vi lover. </p>
+                    <p>Efter endt samarbejde tilsender vi desuden testresultater, fra blandt andet Ecograder - så DU kan sikre dig, at vi har holdt hvad vi lover. Ønsker du det, så kan vi også lave en før analyse hvor vi kan gå i dybden med hvert enkelt emne og vurderer hvor vi kan lave de mest værdifulde ændringer. </p>
                 </div>
             </div>
         </section>

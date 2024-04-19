@@ -3,6 +3,9 @@ export default function Footer(){
 
 
     return (
+
+        
+        
         <footer>
         <div className="left">
             <p>+45 27828860</p>

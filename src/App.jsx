@@ -6,7 +6,9 @@ import Faq from './components/Faq'
 import Pakker from './components/Pakker'
 import Teamet from './components/Teamet'
 import Thatsimple from './components/Thatsimple'
+import Thats from './components/Thats'
 import Footer from './components/Footer'
+import Medarbejder from './pages/Medarbejder'
 
 function App() {
 
@@ -19,7 +21,9 @@ function App() {
       <Faq/>
       <Pakker/>
       <Thatsimple/>
+      <Thats/>
       <Footer/>
+      <Medarbejder />
     </>
   )
 }
