@@ -1,30 +1,16 @@
+import { Navigate, Route, Routes } from 'react-router-dom'
 import './App.css'
-import Header from './components/Header'
-import Globus from './components/Globus'
-import Baredygtig from './components/Baredygtig'
-import Faq from './components/Faq'
-import Pakker from './components/Pakker'
-import Teamet from './components/Teamet'
-import Thatsimple from './components/Thatsimple'
-import Thats from './components/Thats'
-import Footer from './components/Footer'
+import Forside from './pages/Forside'
 import Medarbejder from './pages/Medarbejder'
 
 function App() {
 
   return (
-    <>
-      <Header/>
-      <Globus/>
-      <Baredygtig/>
-      <Teamet/>
-      <Faq/>
-      <Pakker/>
-      <Thatsimple/>
-      <Thats/>
-      <Footer/>
-      <Medarbejder />
-    </>
+    <Routes>
+      <Route path="/" element={<Forside/>} />
+      <Route path="/medarbejder" element={<Medarbejder/>} />
+      <Route path="*" element={<Navigate to="/" />} />
+    </Routes>
   )
 }
 
