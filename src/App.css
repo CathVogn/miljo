@@ -53,7 +53,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #F5664C; 
+  color: #F997C1; 
   text-decoration: none; 
 }
 
@@ -78,48 +78,50 @@ nav ul li a:hover {
 
 .globus-sektion img {
   position: absolute; 
+  width: 38%; 
+  z-index: 0;
 }
 
-.globus-sektion img:first-child {
+.globus-sektion .lottie{
   margin-right: 8%;
   margin-top: 5%;
   width: 32%; 
   z-index: 1; 
-}
-
-.globus-sektion img:last-child {
-  width: 38%; 
-  z-index: 0;
+  position: absolute;
 }
 
 /* vær en del af fremtiden */
 .delfremtiden{
   position: relative;
   text-align: center;
+  padding-bottom: 150px;
 }
 
 .delfremtiden h1{
   color: #F5664C;
   font-size: 40px;
+  margin: -17px;
 }
 
 .delfremtiden h2{
   color: #F997C1;
   font-size: 25px;
+  padding-bottom: 20px;
 }
 
 .delfremtiden p{
+  line-height: 30px;
   color: #5C5C5F;
-  font-size: 20px;
+  font-size: 18px;
   width: 70%;
-  margin-top: 3%;
   margin-left: 15%;
-   margin-bottom: 15%;
 }
 
+
+/* faq */
 .faq {
   width: 60%;
-  margin-top: 20%;
+  margin-top: 10%;
   margin-left: 20%;
 }
 
@@ -176,10 +178,34 @@ nav ul li a:hover {
   margin-top: -30px;
 }
 
+.faq-kryds {
+  float: right; 
+  margin-right: 10px; 
+  cursor: pointer; 
+  transition: transform 0.3s ease; 
+  font-size: 40px; 
+  line-height: 0.6; 
+  color: #F997C1;
+}
 
+.faq-kryds.rotate {
+  transform: rotate(45deg); 
+}
+
+
+#linje4{
+  position: absolute;
+  margin-top: 20%;
+  left: 0;
+  z-index: -1; 
+  width: 100%; 
+  height: auto; 
+}
+
+
+/* mød teamet */
 .modteamet {
   padding-top: 15%;
-  margin-bottom: 10%;
   display: flex;
   justify-content: space-between; 
   align-items: center;
@@ -222,30 +248,7 @@ nav ul li a:hover {
   line-height: 1.5px;
 }
 
-
-.faq-kryds {
-  float: right; 
-  margin-right: 10px; 
-  cursor: pointer; 
-  transition: transform 0.3s ease; 
-  font-size: 40px; 
-  line-height: 0.6; 
-  color: #F997C1;
-}
-
-.faq-kryds.rotate {
-  transform: rotate(45deg); 
-}
-
-#linje4{
-  position: absolute;
-  margin-top: 20%;
-  left: 0;
-  z-index: -1; 
-  width: 100%; 
-  height: auto; 
-}
-
+/* pakker */
 .pakker {
   margin-left: 10%;
   margin-top: 13%;
@@ -367,12 +370,11 @@ nav ul li a:hover {
 
 .hver-enkeltkort p {
   text-align: left; 
-  
   font-size: 12.5px;
   line-height: 1.5;
   margin: 0;
   opacity: 0;
-  transition: opacity 0.5s;
+  transition: opacity 0s;
 }
 
 
@@ -384,11 +386,12 @@ nav ul li a:hover {
 
 .hver-enkeltkort:hover p {
   opacity: 1;
+  transition: opacity 0s ease;
 }
 
 
 
-
+/* book møde */
 .bookmode {
   display: flex;
   justify-content: space-between;
@@ -430,7 +433,6 @@ nav ul li a:hover {
 }
 
 .contentbook h1{
-  
   margin-left: 1%;
   font-size: 40px;
   color: #F5664C;
@@ -464,52 +466,6 @@ nav ul li a:hover {
   left: 0; 
 }
 
-
-
-.thatsimple {
-  margin-top: 20%;
-  display: flex; 
-  align-items: center; 
-}
-
-
-#linje7 {
-  width: 60%;
-  height: auto;
-  margin-right: 20px; 
-}
-
-
-.thatsimple h3 {
-  color: #F5664C;
-  margin-top: 22%;
-  font-size: 33px; 
-}
-
-footer {
-  margin: 5%;
-  margin-top: 5%;
-  color: #5C5C5F;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.left {
-  text-align: left;
-}
-
-.right {
-  text-align: right;
-}
-
-.left p, .right p {
-  font-size: 20px;
-  margin: 20px 0;
-}
-
-
 .form {
   height: 100vh;
   display: flex;
@@ -525,10 +481,8 @@ footer {
 textarea {
   padding: 20px;
   border-radius: 3px;
-  /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137); */
   margin-bottom: 20px;
   border: 1px solid lightgray;
-  /* border: none; */
   background: #fff;
   font-size: 16px;
   color: rgb(0, 0, 32);
@@ -570,6 +524,55 @@ textarea:focus {
 }
 
 
+
+/* streg -> "thatsimple" */
+.thatsimple {
+  margin-top: 20%;
+  display: flex; 
+  align-items: center; 
+}
+
+
+#linje7 {
+  width: 60%;
+  height: auto;
+  margin-right: 20px; 
+}
+
+
+.thatsimple h3 {
+  color: #F5664C;
+  margin-top: 22%;
+  font-size: 33px; 
+}
+
+
+/* footer */
+footer {
+  margin: 5%;
+  margin-top: 5%;
+  color: #5C5C5F;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.left p, .right p {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+
+/* mobil */
 @media (max-width: 700px){
 
   .delfremtiden p{
@@ -648,7 +651,47 @@ textarea:focus {
   }
 
   .thatsimple h3 {
-    font-size: 15px; /* Angiv ønsket skriftstørrelse */
+    font-size: 15px; 
   }
 
 }
+
+/* medarbejder */
+.container-medarbejder {
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 20px;
+}
+
+.kontakt-sektion {
+  margin-bottom: 20px;
+  border: 2px solid #F5664C;
+  padding: 10px;
+  position: relative;
+}
+
+.kontakt-input {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.slet-knap {
+  right: 0;
+  top: 0;
+    margin: 3%;
+    padding: 5px 15px;
+    font-size: 16px;
+    background-color: #F5664C;
+    color: #FEF9E9;
+    border-radius: 10px; 
+    border: none;
+    cursor: pointer;
+    position: absolute;
+}
+
+
+
+

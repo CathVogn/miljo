@@ -11,9 +11,9 @@ export default function Header(){
                 <nav>
                     <ul>
                         <li><a href="#linje1">Bæredygtigt webdesign</a></li>
-                        <li><a href="#linje3">Teamet</a></li>
+                        <li><a href="#teameth2">Teamet</a></li>
                         <li><a href="#linje4">Hvad kan vi gøre for dig?</a></li>
-                        <li><a href="#">Book møde</a></li>
+                        <li><a href="#contentbookh1">Book møde</a></li>
                     </ul>
                 </nav>
             </header>

@@ -14,7 +14,7 @@ export default function Pakker(){
             <h2>Udvidet</h2>
             <p>Er du nyopstartet eller trænger til at starte på ny? 
                 Så designer og udvikler vi gerne din hjemmeside fra bunden. </p>
-                <h3>50.000 kr.</h3>
+                <h3>60.000 kr.</h3>
         </div>
     </div>
 

@@ -11,7 +11,7 @@ export default function Teamet(){
         <section className="modteamet">
          <img src={linje3} id="linje3" alt="linje" loading="lazy"/>
        <div className="modteamet-tekst">
-           <h2>Teamet</h2>
+           <h2 id="teameth2">Teamet</h2>
        </div>
        <div className="billede-modteamet">
         <div className="billede-med-tekst">

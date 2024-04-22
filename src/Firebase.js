@@ -2,6 +2,7 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore";
+
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -15,7 +16,7 @@ const firebaseConfig = {
   messagingSenderId: "376439374364",
   appId: "1:376439374364:web:d1ae7b351571fa4206d5d9",
   measurementId: "G-5J8C8HE6EC"
-};
+}; 
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
