@@ -16,6 +16,7 @@ export default function Footer(){
             <p>8000 Aarhus</p>
             <p>Danmark</p>
         </div>
+
     </footer>
 
 

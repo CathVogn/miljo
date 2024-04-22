@@ -11,6 +11,7 @@ body{
 
 /* Forside */
 .header-container {
+  overflow: hidden;
   font-family: 'comfortaa', sans-serif;
   display: flex;
   justify-content: space-between; 
@@ -92,9 +93,11 @@ nav ul li a:hover {
 
 /* vær en del af fremtiden */
 .delfremtiden{
+  overflow: hidden;
   position: relative;
   text-align: center;
   padding-bottom: 150px;
+  padding-top: 13px;
 }
 
 .delfremtiden h1{
@@ -484,7 +487,7 @@ nav ul li a:hover {
 
 .thatsimple h3 {
   color: #F5664C;
-  margin-top: 22%;
+  margin-top: 24%;
   font-size: 33px; 
 }
 
