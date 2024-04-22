@@ -25,8 +25,9 @@ const Thatsimple = () => {
     try {
       const ref = await addDoc(collection(db, "thatsimple1"), kontakt);
       console.log("Kontakt tilføjet", ref.id);
+      alert("Tak! Dine oplysninger er blevet modtaget.");
     } catch (error) {
-      alert("Error submitting message: " + error.message);
+      alert("Fejl ved indsendelse af besked: " + error.message);
     }
   }
 
@@ -35,31 +36,31 @@ const Thatsimple = () => {
       <h1 id="contentbookh1">Skal vi tage en snak?</h1>
 
       <input
-        placeholder="Name"
+        placeholder="Navn"
         value={name}
         onChange={(e) => setName(e.target.value)}
       />
 
       <input
-        placeholder="Email"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-      />
-
-      <input
-        placeholder="Company"
+        placeholder="Virksomhed"
         value={company}
         onChange={(e) => setCompany(e.target.value)}
       />
 
       <input
-        placeholder="Phone Number"
+        placeholder="Mobilnummer"
         value={phoneNumber}
         onChange={(e) => setPhoneNumber(e.target.value)}
       />
 
+<input
+        placeholder="Email"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+      />
+
       <textarea
-        placeholder="Message"
+        placeholder="Kort beskrivelse af ønsker"
         value={message}
         onChange={(e) => setMessage(e.target.value)}
       ></textarea>

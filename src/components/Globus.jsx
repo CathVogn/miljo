@@ -9,7 +9,7 @@ export default function Globus(){
     return (
     <section>
     <div className="globus-sektion">
-    <Lottie animationData={globus1} loop={true} className="lottie" speed={0.5}/>
+    <Lottie animationData={globus1} loop={true} className="lottie"/>
         <img src={klat} alt="lyserød klat" loading="lazy"/>
        </div>
        <div className="delfremtiden">

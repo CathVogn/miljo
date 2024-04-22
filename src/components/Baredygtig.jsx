@@ -19,7 +19,7 @@ export default function Baredygtig(){
     <div className="baredygtig-kol">
         <div className="hver-enkeltkort"> 
             <h3>Billeder</h3>
-            <img src={kamera} alt="palette" loading="lazy"/>
+            <img src={kamera} alt="kamera" loading="lazy"/>
             <p>Billeder er en af de største klimasyndere. Men de er også med til at skabe lækkert og behageligt design, så det er en hårfin grænse. Derfor bør man overveje hvordan man behandler billeder, frem for at skrotte dem fuldstændig. 
 
                 Filtype: Vælger du den rigtige filtype, så mindsker du størrelsen mest muligt. Har du et simpelt billede såsom et logo eller ikoner så bør du bruge PNG. Har du derimod et billede med meget skygge, bør du bruge JPEGs. Til stregtegninger og illustrationer fungerer SVG rigtig godt. 
